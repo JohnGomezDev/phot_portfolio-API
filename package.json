@@ -1,0 +1,23 @@
+{
+  "name": "portfolio_api",
+  "version": "1.0.0",
+  "description": "Api for the photographer portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "johngomezdev",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "image-size": "^0.8.3",
+    "mongoose": "^5.9.12",
+    "nodemailer": "^6.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
