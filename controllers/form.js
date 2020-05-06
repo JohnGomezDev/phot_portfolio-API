@@ -11,8 +11,8 @@ const controller = {
         let trasnporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'millitos459@gmail.com',
-                pass: 'Yoamoelfutbol1*'
+                user: 'anythingyear2020@gmail.com',
+                pass: 'ano2020*'
             },
             tls: {
                 rejectUnauthorized: false
@@ -21,7 +21,7 @@ const controller = {
 
         let mailOptions = {
             from: body.email,
-            to: 'millitos459@gmail.com',
+            to: 'anythingyear2020@gmail.com',
             subject: `Hola Camila, te escribe ${body.name}`,
             html: `
             <h2>Hola Camila, soy ${body.name}</h2>
