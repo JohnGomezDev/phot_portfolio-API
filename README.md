@@ -1,9 +1,3 @@
----
-title: "TyD Test"
-author: "John Gomez"
-date: "2020/05/06"
----
-
 # Portafolio para fotografo/a API
 
 Parte de backend de la aplicación de portafolio para fotografo/a, puedes ver el frontend [aquí](https://github.com/JohnGomezDev/phot_portfolio-frontend.git). Desarrollada con NodeJs, Express y Mongoose principalmente y librerias complementarias (nodemailer, image-size, connect-multiparty). 
